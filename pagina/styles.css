@@ -1,0 +1,44 @@
+/* Estilos personalizados */
+body {
+    padding-top: 4.5rem; /* Ajuste para la barra de navegación fija */
+    background-color: #d7b3b9 /* Fondo de color */
+  }
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333; /* Color del texto del logo */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #333; /* Color del texto de los enlaces */
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0004d4; /* Cambiar al color deseado al pasar el mouse */
+  }
+
+  /* Estilos para el contenedor del círculo */  
+.circle-container {
+    width: 120px; /* Ancho del contenedor */
+    height: 120px; /* Altura del contenedor */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+  }
+  
+  /* Estilos para la imagen dentro del círculo */
+  .circle-container img {
+    width: 100%; /* Ajusta el tamaño de la imagen para llenar el contenedor circular */
+    height: auto; /* Ajusta automáticamente la altura */
+    display: block; /* Para asegurar que la imagen no tenga espacios adicionales */
+  }
+
+
+  
+  
